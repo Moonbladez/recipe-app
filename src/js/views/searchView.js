@@ -10,6 +10,7 @@ export const clearInput = () => {
 
 export const clearResults = () => {
     elements.searchResList.innerHTML = "";
+    elements.searchResultPages.innerHTML = "";
 }
 
 //limits titles in search results to one line
